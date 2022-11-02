@@ -42,6 +42,6 @@ tags: [project, simple review]
 
 [Review] - ReviewController, ReviewService, ReviewDto, ReviewEntity, ReviewRepository
 
-[user]: /posts/user
-[restaurant]: /posts/restaurant
-[review]: /posts/review
+[user]: /posts/simple-review-user
+[restaurant]: /posts/simple-review-restaurant
+[review]: /posts/simple-review-review
