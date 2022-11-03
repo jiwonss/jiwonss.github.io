@@ -1,7 +1,7 @@
 ---
 title: "[Project] Simple Review"
 author: Jiwonss
-categories: [Project]
+categories: [Project, Simple Review]
 tags: [project, simple review]
 ---
 

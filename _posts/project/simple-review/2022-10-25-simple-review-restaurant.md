@@ -1,7 +1,7 @@
 ---
 title: "[Simple Review] Restaurant"
 author: Jiwonss
-categories: [Simple Reivew]
+categories: [Project, Simple Review]
 tags: [simple review]
 ---
 
