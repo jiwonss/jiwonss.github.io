@@ -48,6 +48,8 @@ public class SearchLocalReq {
 @AllArgsConstructor
 public class SearchLocalRes {
 
+    private String lastBuildDate;
+    private int total;
     private int start;
     private int display;
     private List<SearchLocalItem> items;
@@ -109,6 +111,8 @@ public class SearchImageReq {
 @AllArgsConstructor
 public class SearchImageRes {
 
+    private String lastBuildDate;
+    private int total;
     private int start;
     private int display;
     private List<SearchImageItem> items;
