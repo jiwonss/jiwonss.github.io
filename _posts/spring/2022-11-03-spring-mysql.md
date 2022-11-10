@@ -134,4 +134,6 @@ public class SpringTestRestController {
 ]
 ```
 
-![Result](/assets/img/spring/mysql-test-result.png){: w="700" h="400" }
+### Result
+
+![mysql-test-result](https://user-images.githubusercontent.com/72875528/201173937-0a31b6eb-ca0e-4751-89e3-e3c0b7afd7df.PNG){: w="500" h="300" }
