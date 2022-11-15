@@ -9,13 +9,9 @@ tags: [spring]
 
 Spring Boot
 
-[Spring Initialzr](https://start.spring.io/)
+[Spring Initialzr](https://start.spring.io/)에서 프로젝트 생성
 
-## 2. 프로젝트 설정
-
-Gradle
-
-## 3. 프로젝트 실행
+## 2. 프로젝트 실행
 
 ### SpringTestApplication.java
 
@@ -48,19 +44,24 @@ public class SpringTestApplication {
 @Controller
 public class PageController {
 
+	@GetMapping("/")
+	public String main() {
+		return "main";
+	}
+
 }
 ```
 
-```java
-// 1
-@GetMapping("/")
-public String main() {
-    return "main";
-}
+{: file='PageController.java'}
 
-// 2
-@GetMapping("/")
-public ModelAndView main(){
-    return new ModelAndView("main");
+```java
+@Controller
+public class PageController {
+
+	@GetMapping("/")
+	public ModelAndView main(){
+		return new ModelAndView("main");
+	}
+
 }
 ```
